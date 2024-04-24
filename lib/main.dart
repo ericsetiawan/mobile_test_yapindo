@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_test_yapindo/Views/detail_view.dart';
 import 'package:mobile_test_yapindo/Views/home_view.dart';
 
 void main() {

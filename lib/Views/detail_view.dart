@@ -5,6 +5,8 @@ import 'package:mobile_test_yapindo/Views/home_view.dart';
 import '../Models/home_components/components_home1.dart';
 
 class DetailView extends StatefulWidget {
+  const DetailView({super.key});
+
   @override
   State<DetailView> createState() => _DetailViewState();
 }
@@ -27,7 +29,7 @@ class _DetailViewState extends State<DetailView> {
                 top: MediaQuery.of(context).size.height * 0.05,
                 left: MediaQuery.of(context).size.width * 0.05,
                 right: MediaQuery.of(context).size.width * 0.05),
-            child: Container(
+            child: SizedBox(
               height: MediaQuery.of(context).size.height * 0.95,
               child: SingleChildScrollView(
                 child: Column(

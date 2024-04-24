@@ -30,7 +30,7 @@ class ComponentsHome extends StatelessWidget {
       // height: MediaQuery.of(context).size.height * 0.35,
       width: MediaQuery.of(context).size.width * 0.9,
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.all(Radius.circular(16)),
+          borderRadius: const BorderRadius.all(Radius.circular(16)),
           border: Border.all(color: Colors.black)),
       child: Padding(
         padding:
@@ -42,14 +42,14 @@ class ComponentsHome extends StatelessWidget {
             Container(
               height: MediaQuery.of(context).size.height * 0.05,
               width: MediaQuery.of(context).size.width * 0.5,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Color(0xffFF8844),
                 borderRadius: BorderRadius.all(Radius.circular(20)),
               ),
               child: Center(
                 child: Text(
                   title,
-                  style: TextStyle(
+                  style: const TextStyle(
                       color: Colors.white,
                       fontSize: 9,
                       fontFamily: 'AirbnbCereal_W_Md',
@@ -62,7 +62,7 @@ class ComponentsHome extends StatelessWidget {
             ),
             Text(
               title2,
-              style: TextStyle(
+              style: const TextStyle(
                   color: Color(0xff000000),
                   fontSize: 9,
                   fontFamily: 'AirbnbCereal_W_Md',
@@ -76,8 +76,8 @@ class ComponentsHome extends StatelessWidget {
               children: [
                 Container(
                   width: MediaQuery.of(context).size.width * 0.35,
-                  decoration: BoxDecoration(
-                    gradient: const LinearGradient(
+                  decoration: const BoxDecoration(
+                    gradient: LinearGradient(
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
                       colors: [
@@ -95,7 +95,7 @@ class ComponentsHome extends StatelessWidget {
                       children: [
                         Text(
                           title3,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Colors.white,
                               fontSize: 9,
                               fontFamily: 'AirbnbCereal_W_Md',
@@ -103,7 +103,7 @@ class ComponentsHome extends StatelessWidget {
                         ),
                         Text(
                           title4,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Colors.white,
                               fontSize: 6,
                               fontFamily: 'AirbnbCereal_W_Md',
@@ -118,7 +118,7 @@ class ComponentsHome extends StatelessWidget {
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width * 0.35,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Color(0xff4CAC8F),
                     borderRadius: BorderRadius.all(Radius.circular(8)),
                   ),
@@ -130,7 +130,7 @@ class ComponentsHome extends StatelessWidget {
                       children: [
                         Text(
                           title5,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Colors.white,
                               fontSize: 9,
                               fontFamily: 'AirbnbCereal_W_Md',
@@ -138,7 +138,7 @@ class ComponentsHome extends StatelessWidget {
                         ),
                         Text(
                           title6,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Colors.white,
                               fontSize: 6,
                               fontFamily: 'AirbnbCereal_W_Md',
@@ -160,7 +160,7 @@ class ComponentsHome extends StatelessWidget {
                 child: Container(
                   height: MediaQuery.of(context).size.height * 0.05,
                   width: MediaQuery.of(context).size.width * 0.2,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Color(0xffFF8844),
                     borderRadius: BorderRadius.all(Radius.circular(20)),
                   ),
@@ -170,13 +170,13 @@ class ComponentsHome extends StatelessWidget {
                       children: [
                         Text(
                           title7,
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Colors.white,
                               fontSize: 9,
                               fontFamily: 'AirbnbCereal_W_Md',
                               fontWeight: FontWeight.w500),
                         ),
-                        Icon(
+                        const Icon(
                           Icons.arrow_drop_down,
                           color: Colors.white,
                         ),
